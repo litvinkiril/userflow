@@ -3,7 +3,7 @@
 **Система управления студенческими работами с проверкой на плагиат**
 
 ## Спецификация
-https://elegant784seat.github.io/userflow/
+https://litvinkiril.github.io/userflow/
 
 ## ✨ Особенности
 
