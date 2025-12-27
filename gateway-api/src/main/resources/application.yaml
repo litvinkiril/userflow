@@ -1,0 +1,23 @@
+server:
+  port: 8080
+analysis-service:
+  url: "http://file-analysis-service:9091"
+storing-service:
+  url: "http://file-storage:9090"
+
+springdoc:
+  api-docs:
+    path: /api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operations-sorter: method
+    tags-sorter: alpha
+    doc-expansion: none
+    display-request-duration: true
+
+  packages-to-scan: com.hse.userflow.gateway
+  show-actuator: true
+
+
